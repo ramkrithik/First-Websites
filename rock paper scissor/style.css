@@ -11,7 +11,7 @@ section {
 }
 
 .score {
-    color: rgb(73, 205, 209);
+    color: white;
     height: 20vh;
     display: flex;
     justify-content: space-around;
@@ -19,7 +19,7 @@ section {
 }
 
 .intro {
-    color: rgb(73, 205, 209);
+    color: white;
     height: 50vh;
     display: flex;
     flex-direction: column;
