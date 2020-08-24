@@ -10,12 +10,16 @@ const game = () => {
             match.classList.add('fadein');
         });
     };
-    startgame();
-};
-const playmatch = () => {
-    const options = document.querySelectorAll('.options button');
-    const playerhand = document.querySelector('.player-hand');
-    const comphand = document.querySelector('.computer-hand');
+    const playmatch = () => {
+        const options = document.querySelectorAll('.options button');
+        const playerhand = document.querySelector('.player-hand');
+        const comphand = document.querySelector('.computer-hand');
+        const compopt = ['rock', 'paper', 'scissors'];
+        const compnum = Math.floor(Math.random() * 3);
+        console.log(compnum);
 
+    };
+    startgame();
+    playmatch();
 };
 game();
