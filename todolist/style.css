@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alata", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    height: 10vh;
+    background-color: aqua;
+}
+
+.input {
+    height: 20vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.forms {
+    background-color: aquamarine;
+    text-align: center;
+    display: flex;
+}
+
+.list {
+    background-color: bisque;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.forms textarea {
+    border: 0;
+    box-sizing: content-box;
+    border-radius: 2px;
+    background-color: whitesmoke;
+}
+
+.forms button {
+    border: 0;
+    border-radius: 3px;
+    height: 40px;
+    width: 50px;
+    background-color: white;
+}
+
+.list div {
+    width: 50vh;
+    border: 2px dashed;
+    display: flexbox;
+}
