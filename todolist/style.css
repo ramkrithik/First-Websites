@@ -51,9 +51,17 @@ h1 {
     background-color: white;
 }
 
-.list div {
+.list>div {
     width: 100vh;
     border: 2px dashed;
     display: flexbox;
     justify-content: space-around;
+}
+
+.todo li {
+    transition: 5s ease;
+}
+
+.options div {
+    border: 0;
 }
