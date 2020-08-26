@@ -23,9 +23,12 @@ h1 {
     background-color: aquamarine;
     text-align: center;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .list {
+    padding: 0;
     background-color: bisque;
     height: 70vh;
     display: flex;
@@ -49,7 +52,8 @@ h1 {
 }
 
 .list div {
-    width: 50vh;
+    width: 100vh;
     border: 2px dashed;
     display: flexbox;
+    justify-content: space-around;
 }
